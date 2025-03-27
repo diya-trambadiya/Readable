@@ -3,16 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction to HTML</title>
+    <title>My Homepage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        nav {
+            background: #0056b3;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 50px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #0056b3;
+        }
+        footer {
+            background: #222;
+            color: white;
+            padding: 10px;
+            margin-top: 30px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to HTML!</h1>
-    <p>This is a basic HTML page.</p>
-    <ul>
-        <li>HTML stands for HyperText Markup Language.</li>
-        <li>It is used to create web pages.</li>
-        <li>HTML consists of elements like headings, paragraphs, and lists.</li>
-    </ul>
-    <a href="https://www.w3schools.com/html/">Learn More about HTML</a>
+
+    <header>Welcome to My Website</header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h1>Build Your Online Presence</h1>
+        <p>This is a simple homepage layout using HTML and CSS.</p>
+        <a href="#" class="btn">Get Started</a>
+    </div>
+
+    <footer>&copy; 2025 My Website. All rights reserved.</footer>
+
 </body>
 </html>
+
